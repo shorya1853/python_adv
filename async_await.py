@@ -7,7 +7,7 @@ async def long_operation(n):
 
 async def main():
     task1 = asyncio.create_task(long_operation(5))
-    task2 = asyncio.create_task(long_operation(2))
+    task2 = asyncio.create_task(long_operation(2)W
 
     # Wait for tasks to complete
     await task1
